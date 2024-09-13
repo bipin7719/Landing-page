@@ -1,6 +1,6 @@
 // Banner.jsx
 import React from 'react';
-import image1 from 'public/bannerImg.jpg'
+import image1 from '././'
 
 export default function Banner() {
   return (
