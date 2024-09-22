@@ -1,13 +1,15 @@
 // Navbar.jsx
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import image2 from '/public/TrendHub_logo.jpg'
+
 
 export default function Navbar() {
   return (
-    <nav className="bg-yellow-800 p-4">
+    <nav className="bg-black p-4">
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-4">
-          <img src="TrendHub_logo.JPG" alt="TrendHub_logo" className="h-16 w-16" />
+          <img src={image2} alt="TrendHub_logo" className="h-16 w-16 rounded-full" />
           <span className="text-white text-xl font-semibold">Name</span>
         </div>
         <ul className="flex space-x-4">

@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Banner from './Banner'
+import Banner from './banner'
 import Service from './Service'
 import Footer from './Footer'
 
