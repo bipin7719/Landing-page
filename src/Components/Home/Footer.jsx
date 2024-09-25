@@ -3,27 +3,13 @@ import image2 from '/public/TrendHub_logo.jpg'
 
 export default function Footer() {
   return (
-    <div>
-      <div className="md:w-1/2 h-80 rounded-lg overflow-hidden mt-4  justify-content-right">
-
+    <div className='flex flex-row'>
       
-          <iframe
-            className='justify-content: space-between'
-            title="Map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d915.3609950438193!2d88.36442036955457!3d23.40832382940961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f91d58f0125f91%3A0x91f280ebb05bb275!2sTrend%20Hub!5e0!3m2!1sen!2sin!4v1726875190893!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-            width="600%"
-            height="450%"
-            style={{ border: 0, filter: 'invert(100%)' }} // Dark theme filter
-            allowFullScreen
-            loading="lazy"
-          ></iframe>
-
-        </div>
-        <div className="logo">
+        <div className="logo mx-10">
         <img src={image2} alt="TrendHub_logo" className="h-16 w-16 rounded-full" />
         <h2 className='font-bold mb-3 mt-3'>TrendHub</h2>
       </div>
-      <div className="contact">
+      <div className="contact mx-5">
         <p>Ampuliya para, Badurtala lane, Nabadwip</p>
         <p>Order at our Whatsapp - 8536846979</p>
         <p>Calling no - 7719228404</p>
@@ -56,6 +42,20 @@ export default function Footer() {
           <i className="Instagram"></i>
         </a>
         </div>
-    </div>
+    
+    <div className="md:w-1/2 h-80 rounded-lg overflow-hidden mt-4  justify-content-right">
+
+      
+    <iframe
+      className='justify-content: space-between'
+      title="Map"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d915.3609950438193!2d88.36442036955457!3d23.40832382940961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f91d58f0125f91%3A0x91f280ebb05bb275!2sTrend%20Hub!5e0!3m2!1sen!2sin!4v1726875190893!5m2!1sen!2sin" width="800" height="550" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+    
+      style={{ border: 0, filter: 'invert(100%)' }} // Dark theme filter
+      allowFullScreen
+      loading="lazy"
+    ></iframe>
+  </div>
+  </div>
   )
 }
