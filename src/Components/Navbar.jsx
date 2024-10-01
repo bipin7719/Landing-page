@@ -17,10 +17,10 @@ export default function Navbar() {
             <Link to="/" className="text-black hover:text-gray-400">Home</Link>
           </li>
           <li>
-            <Link to="/services" className="text-black hover:text-gray-400">Services</Link>
+            <Link to="/products" className="text-black hover:text-gray-400">Products</Link>
           </li>
           <li>
-            <Link to="/contacts" className="text-black hover:text-gray-400">Contacts</Link>
+            <Link to="/contact" className="text-black hover:text-gray-400">Contact</Link>
           </li>
           <li>
             <Link to="/about" className="text-black hover:text-gray-400">About</Link>
