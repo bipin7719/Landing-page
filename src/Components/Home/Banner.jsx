@@ -2,10 +2,11 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import im1 from '/public/banner_images/im1.JPG';
 import im2 from '/public/banner_images/im2.JPG';
 import im3 from '/public/banner_images/im3.JPG';
 import im4 from '/public/banner_images/im4.JPG';
+import im7 from '/public/banner_images/im7.JPG';
+import im8 from '/public/banner_images/im8.JPG';
 
 // Arrow components
 function NextArrow(props) {
@@ -73,7 +74,7 @@ export default function Banner() {
 
       <div className='relative h-[100vh]'>
         <img
-          src={im1}
+          src={im7}
           alt="Random Technology"
           className="w-full h-full object-cover"
         />
@@ -110,6 +111,18 @@ export default function Banner() {
       <div className='relative h-[100vh]'>
         <img
           src={im4}
+          alt="Random Business"
+          className="w-full h-full object-cover"
+        />
+        <div className="text-white p-8 text-center justify-center items-center left-0 right-0 absolute top-64">
+          <h1 className="text-3xl font-bold">Why Choose Us?</h1>
+          <p className="mt-4">We guarantee the best results.</p>
+        </div>
+        </div>
+
+        <div className='relative h-[100vh]'>
+        <img
+          src={im8}
           alt="Random Business"
           className="w-full h-full object-cover"
         />

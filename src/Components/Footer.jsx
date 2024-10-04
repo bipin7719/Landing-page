@@ -3,36 +3,20 @@ import image2 from '/public/TrendHub_logo.jpg'
 
 export default function Footer() {
   return (
-    <div className='flex flex-row'>
+    <div className='flex flex-row bg-black'>
       
-        <div className="logo mx-10">
+        <div className="logo mx-2">
         <img src={image2} alt="TrendHub_logo" className="h-16 w-16 rounded-full" />
         <h2 className='font-bold mb-3 mt-3'>TrendHub</h2>
       </div>
-      <div className="contact mx-5">
+      <div className="contact mx-44 text-white">
         <p>Ampuliya para, Badurtala lane, Nabadwip</p>
         <p>Order at our Whatsapp - 8536846979</p>
         <p>Calling no - 7719228404</p>
         <p>Email - trendhub2k23@gmail.com</p>
       </div>
       <div className="business-hours">
-        <h3 className='font-bold'>Business Hours:</h3>
-        <table>
-          <tbody>
-            <tr>
-              <th>Day</th>
-              <th>Hours</th>
-            </tr>
-            <tr>
-              <td>Monday to Friday </td>
-              <td>9:00 AM - 10:00 PM</td>
-            </tr>
-            <tr>
-              <td>Saturday</td>
-              <td>9:00 AM - 10:00 PM</td>
-            </tr>
-          </tbody>
-        </table>
+        
       </div>
       <div className="social-media">
         <a href="https://www.facebook.com/profile.php?id=100094926457276&mibextid=2JQ9oc">
