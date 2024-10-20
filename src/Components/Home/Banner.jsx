@@ -7,6 +7,7 @@ import im3 from '/public/banner_images/im3.JPG';
 import im4 from '/public/banner_images/im4.JPG';
 import im7 from '/public/banner_images/im7.JPG';
 import im8 from '/public/banner_images/im8.JPG';
+import im9 from '/public/banner_images/im9.jpg';
 
 // Arrow components
 function NextArrow(props) {
@@ -68,7 +69,7 @@ export default function Banner() {
         />
         <div className="text-white p-8 text-center justify-center items-center left-0 right-0 absolute top-64">
           <h1 className="text-3xl font-bold">Welcome to Our Website</h1>
-          <p className="mt-4">We provide the best services for you.</p>
+          <p className="mt-4">TrendHub is your one-stop destination for the latest trends in fashion and lifestyle. <br></br>Discover a curated collection of stylish products, from trendy apparel to unique accessories. Stay updated with the hottest fashion trends and get inspired by our curated looks.<br></br> Join the TrendHub community and express your individuality through fashion.</p>
         </div>
       </div>
 
@@ -79,8 +80,8 @@ export default function Banner() {
           className="w-full h-full object-cover"
         />
         <div className="text-white p-8 text-center justify-center items-center left-0 right-0 absolute top-64">
-          <h1 className="text-3xl font-bold">Our Amazing Services</h1>
-          <p className="mt-4">Bringing innovation to your door.</p>
+          <h1 className="text-3xl font-bold text-yellow-400">Our Amazing Services</h1>
+          <p className="mt-4 text-red-800 font-bold">Bringing innovation to your door.</p>
         </div>
       </div>
 
@@ -130,6 +131,19 @@ export default function Banner() {
           <h1 className="text-3xl font-bold">Why Choose Us?</h1>
           <p className="mt-4">We guarantee the best results.</p>
         </div>
+
+        <div className='relative h-[100vh]'>
+        <img
+          src={im9}
+          alt="Random Business"
+          className="w-full h-full object-cover"
+        />
+        <div className="text-white p-8 text-center justify-center items-center left-0 right-0 absolute top-64">
+          <h1 className="text-3xl font-bold">Why Choose Us?</h1>
+          <p className="mt-4">We guarantee the best results.</p>
+        </div>
+      </div>
+        
       </div>
     </Slider>
   );
