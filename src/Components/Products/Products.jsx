@@ -20,7 +20,7 @@ const Products = () => {
     <div className='bg-white p-10 flex flex-col text-center items-center w-3/4 overflow-y-scroll'>
      
       
-      <div className='overflow-y-scroll h-[500px] w-full'>
+      <div className='overflow-y-scroll h-[800px] w-full'>
       <h1 className='text-center text-4xl font-bold mb-3 mt-3'>Our Products</h1>
       <p className='text-center mb-7'>You can choose or customise any of our tees!<br></br>Grab your tees asap! </p>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6 text-center'>
