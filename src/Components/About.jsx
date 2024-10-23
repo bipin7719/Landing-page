@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <div>
-      <h1 className='text-center text-4xl font-bold mb-3 mt-3'>About TrendHub</h1>
+      <h1>About TrendHub</h1>
       <p>
 TrendHub is your go-to destination for stylish and unique custom t-shirts. We're passionate about helping you express your individuality and stay ahead of the latest fashion trends.
 

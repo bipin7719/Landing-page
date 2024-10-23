@@ -5,7 +5,7 @@ import Products from './Products'
 const ProductPage = () => {
   return (
     <div >
-        <div className='flex'>
+        <div className='flex overflow-hidden'>
             <ProductFilter />
             <Products />
             

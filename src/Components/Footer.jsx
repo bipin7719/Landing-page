@@ -1,5 +1,6 @@
 import React from 'react'
 import image2 from '/public/TrendHub_logo.jpg'
+import { FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -18,9 +19,9 @@ export default function Footer() {
       <div className="business-hours">
         
       </div>
-      <div className="social-media">
+      <div className="social-media bg-white h-12 w-10">
         <a href="https://www.facebook.com/profile.php?id=100094926457276&mibextid=2JQ9oc">
-          <i className="TrendHub/fb"></i>
+        <FaFacebook />
         </a>
         <a href=" https://www.instagram.com/trendhub2k23?igsh=MTNtZGN0YW9uaTNodg==">
           <i className="Instagram"></i>
