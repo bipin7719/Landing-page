@@ -11,7 +11,7 @@ export default function Service() {
   return (
     <div className='bg-[#f5f5dc] p-10 flex flex-col text-center items-center'>
       <FaMobile size = {32} color='red' className='mb-4' />
-      <h1 className='text-center text-4xl font-bold mb-3 mt-3'>Our Products</h1>
+      <h1 className='text-center text-4xl font-bold mb-3 mt-3'>What's Your Vibe?</h1>
       <p className='text-center mb-7'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br></br> Donec sit amet neque tellus. Vivamus at metus sem. </p>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6 text-center'>
             <div className='flex flex-col font-bold text-center items-center'>

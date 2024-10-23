@@ -2,12 +2,11 @@ import React from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import im2 from '/public/banner_images/im2.JPG';
-import im3 from '/public/banner_images/im3.JPG';
-import im4 from '/public/banner_images/im4.JPG';
-import im7 from '/public/banner_images/im7.JPG';
-import im8 from '/public/banner_images/im8.JPG';
-import im9 from '/public/banner_images/im9.jpg';
+import im1 from '/public/banner_images/bannerimg1.avif';
+import im2 from '/public/banner_images/bannerimg2.avif';
+import im3 from '/public/banner_images/bannerimg3.avif';
+import im4 from '/public/banner_images/bannerimg4.avif';
+
 
 // Arrow components
 function NextArrow(props) {
@@ -61,21 +60,12 @@ export default function Banner() {
 
   return (
     <Slider {...settings} className="h-[100vh]">
-      {/* Slide 1 */}<div className='relative h-[100vh]'>
-        <img
-          src="public\bannerImg.jpg"
-          alt="Random Nature"
-          className="w-full h-full object-cover"
-        />
-        <div className="text-white p-8 text-center justify-center items-center left-0 right-0 absolute top-64">
-          <h1 className="text-3xl font-bold">Welcome to Our Website</h1>
-          <p className="mt-4">TrendHub is your one-stop destination for the latest trends in fashion and lifestyle. <br></br>Discover a curated collection of stylish products, from trendy apparel to unique accessories. Stay updated with the hottest fashion trends and get inspired by our curated looks.<br></br> Join the TrendHub community and express your individuality through fashion.</p>
-        </div>
-      </div>
+      {/* Slide 1 */}
+        
 
       <div className='relative h-[100vh]'>
         <img
-          src={im7}
+          src={im1}
           alt="Random Technology"
           className="w-full h-full object-cover"
         />
@@ -121,30 +111,9 @@ export default function Banner() {
         </div>
         </div>
 
-        <div className='relative h-[100vh]'>
-        <img
-          src={im8}
-          alt="Random Business"
-          className="w-full h-full object-cover"
-        />
-        <div className="text-white p-8 text-center justify-center items-center left-0 right-0 absolute top-64">
-          <h1 className="text-3xl font-bold">Why Choose Us?</h1>
-          <p className="mt-4">We guarantee the best results.</p>
-        </div>
-
-        <div className='relative h-[100vh]'>
-        <img
-          src={im9}
-          alt="Random Business"
-          className="w-full h-full object-cover"
-        />
-        <div className="text-white p-8 text-center justify-center items-center left-0 right-0 absolute top-64">
-          <h1 className="text-3xl font-bold">Why Choose Us?</h1>
-          <p className="mt-4">We guarantee the best results.</p>
-        </div>
-      </div>
         
-      </div>
+       
+        
     </Slider>
   );
 }

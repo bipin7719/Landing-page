@@ -4,7 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className='flex flex-row bg-black'>
+    <div className='flex flex-row bg-[#d4be90]'>
       
         <div className="logo mx-2">
         <img src={image2} alt="TrendHub_logo" className="h-16 w-16 rounded-full" />

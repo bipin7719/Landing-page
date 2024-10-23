@@ -1,14 +1,14 @@
 // Navbar.jsx
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import image2 from '/public/TrendHub_logo.jpg'
+import image2 from '/public/th_logo.png'
 import { MdOutlineDarkMode } from "react-icons/md";
 import { MdOutlineWbSunny } from "react-icons/md";
 
 
 export default function Navbar() {
   return (
-    <nav className="bg-[#070707] p-4">
+    <nav className="bg-[#d4be90] p-4">
       <div className="container mx-auto flex items-center justify-between ">
         <div className="flex items-center space-x-4">
           <img src={image2} alt="TrendHub_logo" className="h-16 w-16 rounded-full" />
